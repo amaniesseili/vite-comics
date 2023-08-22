@@ -7,6 +7,8 @@ export default{
 
 <template>
 
+<footer></footer>
+
 </template>
 
 <style scoped >
