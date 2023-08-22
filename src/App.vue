@@ -17,12 +17,26 @@ export default {
 <template>
   
   <TheHeader></TheHeader>
-  <main></main>
+  <main> 
+    <div class="container">
+      <p>Content goes here </p>
+
+    </div>
+    
+  </main>
   <TheFooter></TheFooter>
 
   
 </template>
 
 <style >
-
+main{
+  min-height: 100px;
+  background-color: black;
+}
+p{
+  color: white;
+  font-size: 20px;
+  padding-top: 2rem;
+}
 </style>
