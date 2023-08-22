@@ -3,6 +3,8 @@ import HelloWorld from './components/HelloWorld.vue'
 //importo il nome del componente
 import TheHeader from './components/TheHeader.vue';
 import TheFooter from './components/TheFooter.vue';
+import Banner from './components/Banner.vue';
+
 
 // specifico che voglio usarli nel export default aggiungendo la chiave components con i nomi del componente
 export default {
