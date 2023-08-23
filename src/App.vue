@@ -11,6 +11,7 @@ export default {
   components: {
     TheHeader,
     TheFooter,
+    Banner,
   }
 
 }
@@ -22,8 +23,10 @@ export default {
   <main> 
     <div class="container">
       <p>Content goes here </p>
+      
 
     </div>
+    <Banner></Banner>
     
   </main>
   <TheFooter></TheFooter>
