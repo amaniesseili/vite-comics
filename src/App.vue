@@ -21,11 +21,16 @@ export default {
   
   <TheHeader></TheHeader>
   <main> 
-    <div class="container">
-      <p>Content goes here </p>
-      
+    <div class="jumbotron">
+      <img class="jumbo-img" src="." alt="">
 
     </div>
+
+    <div class="container">
+      <p>Content goes here </p>
+    </div>
+
+
     <Banner></Banner>
     
   </main>
@@ -44,4 +49,12 @@ p{
   font-size: 20px;
   padding-top: 2rem;
 }
+
+.jumbotron{
+  height: 400px;
+  background-color: aquamarine;
+  background-image: url(assets/img/jumbotron.jpg);
+
+}
+
 </style>
