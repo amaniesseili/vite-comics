@@ -57,7 +57,7 @@ export default{
       </div>
 
       <div>
-        <img class="transparent-image" src="../assets/img/dc-logo-bg.png" alt="">
+        <img class="transparent-image" src="" alt="">
       </div>
     </div>
   </div>
@@ -68,7 +68,7 @@ export default{
       
 
       <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
+        <div class="container py-5">
             <button type="button" class="btn btn-outline-primary">Primary</button>
 
             <ul class="navbar-nav ">
@@ -108,6 +108,7 @@ export default{
 
 footer{
   padding-top: 2rem;
+  height: 400px;
   background-image: url(../assets/img/footer-bg.jpg);
 }
 
@@ -120,14 +121,19 @@ h5{
   color: white;
 }
 .transparent-image{
-  margin-top: -7rem;
+  height: 400px;
+  width: 600px;
+  background-image: url(../assets/img/dc-logo-bg.png); 
+  background-size: cover;
+  background-position: center;
+  margin-top: -2rem;
   margin-left: 300px;
 }
 .sign-up-bar{
-  align-items: center;
   height: 150px;
   background-color:#303030;
 }
+
 
 .follow-us{
   color:#0282F9;
