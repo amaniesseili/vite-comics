@@ -41,11 +41,11 @@ export default {
     <!-- contenuto pagina -->
     <div class="container">
       <p>Content goes here </p>
-      <div class="row row-cols-6">
+      <div class="row row-cols-6 g-3">
         <div class="col" v-for="(product, i) in productsList" :key="`product_${i}`">
 
-          <div class="card border-0 rounded-0">
-            <img :src="product.thumb" alt="">
+          <div class="card border-0 rounded-0 ">
+            <img :src="product.thumb" alt=""/>
 
             <div class="card-body">
               {{ product.series }}
