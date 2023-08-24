@@ -14,13 +14,13 @@ export default {
     TheHeader,
     TheFooter,
     Banner,
-  }
+  },
   
   // devo passale productsList in data cosi sono accessibili in html 
-  data() {
+  data () {
     return {
       productsList
-    }
+    };
   },
 };
 
